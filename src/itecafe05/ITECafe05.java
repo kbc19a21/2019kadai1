@@ -1,6 +1,5 @@
 package itecafe05;
 
-import static itecafe05.Order.order;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.logging.Level;

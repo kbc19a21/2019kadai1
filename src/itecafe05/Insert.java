@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Insert {
 
-    static Scanner scan = new Scanner(System.in);
+    Scanner scan = new Scanner(System.in);
     private static String bb;
     private static int b;
 
@@ -12,6 +12,7 @@ public class Insert {
         for (;;) {
 
             try {
+                Scanner scan = new Scanner(System.in);
                 bb = scan.next();
                 b = Integer.parseInt(bb);
             } catch (NumberFormatException e) {
@@ -32,6 +33,7 @@ public class Insert {
         for (;;) {
             System.out.println("1.はい　2.いいえ");
             try {
+                Scanner scan = new Scanner(System.in);
                 bb = scan.next();
                 b = Integer.parseInt(bb);
             } catch (NumberFormatException e) {
