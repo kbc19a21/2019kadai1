@@ -20,10 +20,10 @@ public class ITECafe05 {
         Food chocolate = new Sweet(7, "チョコレートケーキ", 450);
         Food chocobananapafe = new Sweet(8, "チョコバナナパフェ", 390);
         Food strawberrypafe = new Sweet(9, "イチゴパフェ　　　", 390);
-        Food meatPasta = new Snack(10, "ミートピザ", 650);
-        Food mixPizza = new Snack(11, "ミックスピザ", 700);
-        Food croissant = new Pan(12, "クロワッサン", 180);
-        Food toastSandwich = new Pan(13, "トーストサンド", 200);
+        Food meatPasta = new Snack(10, "ミートピザ　　　", 650);
+        Food mixPizza = new Snack(11, "ミックスピザ　　", 700);
+        Food croissant = new Pan(12, "クロワッサン　　", 180);
+        Food toastSandwich = new Pan(13, "トーストサンド　", 200);
         Food frenchToast = new Pan(14, "フレンチトースト", 210);
 
         ArrayList<Food> items = new ArrayList<>();
@@ -42,11 +42,9 @@ public class ITECafe05 {
         items.add(croissant);
         items.add(toastSandwich);
         items.add(frenchToast);
-        try {
+        
             Passward.pass();
-        } catch (PassMiss ex) {
-            Logger.getLogger(ITECafe05.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        
 
         System.out.println("　　　　　■■■ITECafe■■■");
         System.out.println("");
